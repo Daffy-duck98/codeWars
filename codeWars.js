@@ -19,6 +19,8 @@ function solution(string) {
 
 console.log(solution("camelCasing"));
 
+// https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/javascript
+
 function nbYear(p0, percent, aug, p) {
   let result = 0;
   while (p0 <= p) {
