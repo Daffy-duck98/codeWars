@@ -1,23 +1,23 @@
-// function unscrambleEggs(word) {
-//   return word.replace(/(egg)/gi, "");
-// }
-// console.log(unscrambleEggs("Beggegeggineggnegger"));
+function unscrambleEggs(word) {
+  return word.replace(/(egg)/gi, "");
+}
+console.log(unscrambleEggs("Beggegeggineggnegger"));
 
-// function solution(string) {
-//   let strNew = "";
+function solution(string) {
+  let strNew = "";
 
-//   for (let i = 0; i < string.length; i++) {
-//     if (string[i] === string[i].toUpperCase()) {
-//       strNew += " " + string[i];
-//     } else {
-//       strNew += string[i];
-//     }
-//   }
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === string[i].toUpperCase()) {
+      strNew += " " + string[i];
+    } else {
+      strNew += string[i];
+    }
+  }
 
-//   return strNew;
-// }
+  return strNew;
+}
 
-// console.log(solution("camelCasing"));
+console.log(solution("camelCasing"));
 
 function nbYear(p0, percent, aug, p) {
   let result = 0;
